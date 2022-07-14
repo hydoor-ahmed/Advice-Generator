@@ -67,6 +67,7 @@ body {
   align-items: center;
   margin: auto;
   transition: .5s;
+  margin-bottom: -50px;
 }
 
 .advice .dice:hover {
