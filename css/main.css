@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+  --ight-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--dark-blue);
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+}
+
+.advice {
+  background: var(--dark-grayish-blue);
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  width: 500px;
+}
+
+.advice .adviceId {
+  color: var(--neon-green);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 22px 0;
+}
+
+.advice .adviceText {
+  font-size: 25px;
+  max-width: 450px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.advice .divider {
+  margin: 20px 0;
+  max-width: 100%;
+}
+
+.advice .divider img {
+  max-width: 100%;
+}
+
+.advice .dice {
+  cursor: pointer;
+  background: var(--neon-green);
+  width: 60px;
+  border-radius: 130px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  transition: .5s;
+}
+
+.advice .dice:hover {
+  box-shadow: 0 0 20px 3px rgba(82, 255, 169, 0.407);
+}
+
